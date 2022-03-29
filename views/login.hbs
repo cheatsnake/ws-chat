@@ -1,0 +1,32 @@
+<div
+    id="login"
+    class="container-sm d-flex flex-column justify-content-center align-items-center align-self-stretch"
+>
+    <h2>Welcome!</h2>
+    <form action="/chat" method="post">
+        <div class="mb-3">
+            <label for="inputUsername" class="form-label">Enter your username</label>
+            <input
+                name="username"
+                type="text"
+                minlength="3"
+                class="form-control"
+                id="inputUsername"
+                aria-describedby="usernameHelp"
+                required="true"
+            />
+            <div id="usernameHelp" class="form-text">With this name you will be
+                signed in the chat</div>
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+            <div class="mb-3 form-check">
+                <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="rememberMe"
+                />
+                <label class="form-check-label" for="rememberMe">Remember me</label>
+            </div>
+            <button id="joinBtn" class="btn btn-primary">Join to chat</button></div>
+    </form>
+</div>
