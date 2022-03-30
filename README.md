@@ -22,3 +22,4 @@ npm run dev
 ```bash
 npm start
 ```
+> Base server url: http://localhost:5000
