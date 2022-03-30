@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { createServer } = require("http");
 const app = require("./http-server");
 const WebSocket = require("ws");
